@@ -1,0 +1,14 @@
+# 01.Finding the Middle Number
+
+a= int(input("Enter first number :- "))
+b= int(input("Enter second number :- "))
+c= int(input("Enter third number :- "))
+
+if(a>b and a<c) or (a<b and a>c):
+    middle=a
+elif(b>a and b<c) or (b<a and b>c):
+    middle=b
+else:
+    middle=c
+
+print("the middle number is :",middle)
