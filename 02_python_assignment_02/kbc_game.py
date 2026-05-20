@@ -1,5 +1,4 @@
 print(" Welcome to KBC Quiz Game ")
-
 start = input("Do you want to start the game? (yes/no):- ")
 
 if start == "yes":
@@ -10,7 +9,7 @@ if start == "yes":
     skipped = 0
 
 
-    # ---------------- QUESTION 1 ----------------
+    # QUESTION 1 
     print("\n1. What is the capital of India?")
     print("A. Mumbai")
     print("B. Delhi")
@@ -31,7 +30,7 @@ if start == "yes":
         wrong = wrong + 1
 
 
-    # ---------------- QUESTION 2 ----------------
+    # QUESTION 2
     print("\n2. Which planet is known as Red Planet?")
     print("A. Earth")
     print("B. Venus")
@@ -52,7 +51,7 @@ if start == "yes":
         wrong = wrong + 1
 
 
-    # ---------------- QUESTION 3 ----------------
+    # QUESTION 3 
     print("\n3. Who wrote Hamlet?")
     print("A. Charles Dickens")
     print("B. William Shakespeare")
@@ -73,7 +72,7 @@ if start == "yes":
         wrong = wrong + 1
 
 
-    # ---------------- QUESTION 4 ----------------
+    # QUESTION 4 
     print("\n4. What is the largest ocean?")
     print("A. Atlantic")
     print("B. Indian")
@@ -94,7 +93,7 @@ if start == "yes":
         wrong = wrong + 1
 
 
-    # ---------------- QUESTION 5 ----------------
+    # QUESTION 5 
     print("\n5. Smallest prime number?")
     print("A. 0")
     print("B. 1")
@@ -115,7 +114,7 @@ if start == "yes":
         wrong = wrong + 1
 
 
-    # ---------------- FINAL RESULT ----------------
+    # FINAL RESULT
     print("\n🎯 GAME OVER 🎯")
     print("Total Score:", score)
     print("Correct Answers:", correct)
@@ -123,4 +122,4 @@ if start == "yes":
     print("Skipped Questions:", skipped)
 
 else:
-    print("Maybe next time! 👋")
+    print("Maybe next time!")
