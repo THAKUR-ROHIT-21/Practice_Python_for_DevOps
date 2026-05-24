@@ -2,7 +2,7 @@
 # number of terms.
 
 
-num1 = int(input("Enter the number of terms: "))
+num1 = int(input("Enter the number of terms:- "))
 
 a=0
 b=1
