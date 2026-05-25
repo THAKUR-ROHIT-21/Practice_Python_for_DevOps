@@ -11,7 +11,6 @@ print("Reversed string :-", rev)
 
 # secound 
 
-# Reverse a string using a while loop
 
 text = input("Enter a string: ")
 reversed_text = ""

@@ -1,10 +1,10 @@
 # 21.Write a Python program to display the squares of numbers from 1 to 10.
 
-# num1=int(input("Enter Your Number when you want to Square :- "))
+num1=int(input("Enter Your Number when you want to Square :- "))
 
 
-# for i in range(1, num1 + 1):
-#     print(i * i)
+for i in range(1, num1 + 1):
+    print(i * i)
 
 
 # Secound Method 

@@ -3,8 +3,6 @@
 # on day 1, 200 on day 2, and so on. You want to print the current day’s balance along with
 # the previous day’s balance. For day 1, the previous day’s balance is 0.
 
-
-
 day=int(input("Enter the number of the day:-"))
 a=0
 count=0
